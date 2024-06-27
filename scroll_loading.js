@@ -26,5 +26,4 @@ const scrollYPoistion = () => {
   loading_color.style.width = `${percent}%`
 }
 
-//이벤트 리스너는 window에 걸고 scroll의 변화를 기준으로 실행합니다. 
 window.addEventListener("scroll", scrollYPoistion);
