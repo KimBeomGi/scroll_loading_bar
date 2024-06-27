@@ -1,0 +1,22 @@
+.text-center{
+  text-align: center;
+}
+.letter{
+  font-size: 2rem;
+  font-weight: 800;
+}
+.loading-box{
+  width: 60vw;
+  height: 5vh;
+  border: 1px solid #000000;
+}
+.loading-div{
+  position: fixed;
+  top: calc(50% - 2.5vh);
+  left: calc(50% - 30vw);
+}
+.loading-color{
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(to right, #01ff41, #1f40ff);
+}
